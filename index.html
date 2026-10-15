@@ -3,167 +3,135 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Academic homepage of Jindi Bao, a researcher working on multimodal learning and affective computing.">
-    <title>Jindi Bao | Multimodal Learning</title>
+    <meta name="description" content="Academic homepage of Jindi Bao at Nanjing University of Science and Technology.">
+    <title>Jindi Bao - Homepage</title>
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <header class="site-header">
-      <div class="shell nav-wrap">
-        <a class="brand" href="#top" aria-label="Jindi Bao home">
-          <span class="brand-mark">JB</span>
-          <span>Jindi Bao</span>
-        </a>
-        <nav class="site-nav" aria-label="Primary navigation">
-          <a href="#about">About</a>
-          <a href="#research">Research</a>
-          <a href="#work">Selected Work</a>
+    <header class="site-nav">
+      <div class="nav-inner">
+        <a class="skip-link" href="#content">Skip to content</a>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" aria-label="Toggle navigation">
+          <span></span><span></span><span></span>
+        </button>
+        <nav id="primary-nav" class="nav-links" aria-label="Primary navigation">
+          <a href="#about-me">About Me</a>
+          <a href="#news">News</a>
           <a href="#publications">Publications</a>
-          <a href="#contact">Contact</a>
+          <a href="#research">Research</a>
+          <a href="#affiliation">Affiliation</a>
         </nav>
       </div>
     </header>
 
-    <main id="top">
-      <section class="hero shell" id="about">
-        <div class="hero-copy">
-          <p class="eyebrow">Multimodal learning · Affective computing</p>
-          <h1>Jindi Bao</h1>
-          <p class="role">Nanjing University of Science and Technology</p>
-          <p class="intro">
-            I study how language, acoustic, and visual signals can be combined to build
-            reliable systems for understanding human emotion, especially when real-world
-            multimodal data are incomplete or noisy.
-          </p>
-          <div class="hero-links">
-            <a class="button button-primary" href="https://scholar.google.com/citations?user=MJFRrJwAAAAJ&amp;hl=zh-CN" target="_blank" rel="noreferrer">Google Scholar <span aria-hidden="true">↗</span></a>
-            <a class="button button-secondary" href="https://github.com/CSBJD/PRLF" target="_blank" rel="noreferrer">Code on GitHub <span aria-hidden="true">↗</span></a>
-          </div>
+    <main id="content" class="page-shell">
+      <aside class="profile-sidebar" aria-label="Profile">
+        <div class="avatar" aria-hidden="true">JB</div>
+        <h1>Jindi Bao</h1>
+        <p class="profile-affiliation">Nanjing University of<br>Science and Technology</p>
+        <div class="profile-links">
+          <a href="mailto:bjd0706@njust.edu.cn" aria-label="Email Jindi Bao">Email</a>
+          <a href="https://github.com/CSBJD" target="_blank" rel="noreferrer" aria-label="Jindi Bao on GitHub">GitHub</a>
+          <a href="https://scholar.google.com/citations?user=MJFRrJwAAAAJ&amp;hl=zh-CN" target="_blank" rel="noreferrer" aria-label="Jindi Bao on Google Scholar">Scholar</a>
         </div>
-        <aside class="profile-panel" aria-label="Profile summary">
-          <div class="monogram" aria-hidden="true">JB</div>
-          <div class="profile-meta">
-            <span class="meta-label">Based in</span>
-            <strong>Nanjing, China</strong>
-          </div>
-          <div class="profile-meta">
-            <span class="meta-label">Focus</span>
-            <strong>Robust multimodal intelligence</strong>
-          </div>
-        </aside>
-      </section>
+        <p class="profile-location">Nanjing, China</p>
+      </aside>
 
-      <section class="section shell" id="research">
-        <div class="section-heading">
-          <p class="eyebrow">Research agenda</p>
-          <h2>Making multimodal understanding more reliable.</h2>
-        </div>
-        <div class="research-grid">
-          <article class="research-item">
-            <span class="index">01</span>
-            <h3>Multimodal learning</h3>
-            <p>Learning complementary representations across language, audio, and vision.</p>
-          </article>
-          <article class="research-item">
-            <span class="index">02</span>
-            <h3>Affective computing</h3>
-            <p>Modeling sentiment and emotion with representations that remain semantically meaningful.</p>
-          </article>
-          <article class="research-item">
-            <span class="index">03</span>
-            <h3>Incomplete modalities</h3>
-            <p>Reliability-aware fusion and distillation for noisy, missing, or uncertain inputs.</p>
-          </article>
-        </div>
-      </section>
+      <article class="content-column">
+        <section id="about-me" class="intro-section">
+          <p>I am a researcher at Nanjing University of Science and Technology working on multimodal learning and affective computing. My research focuses on understanding human emotion from language, acoustic, and visual signals, particularly when multimodal inputs are incomplete, noisy, or unreliable.</p>
+          <p>My current work studies reliability-aware fusion, progressive representation learning, and distillation for robust multimodal sentiment and emotion analysis.</p>
+          <p>For questions or collaborations, please contact me at <a href="mailto:bjd0706@njust.edu.cn">bjd0706@njust.edu.cn</a>.</p>
+        </section>
 
-      <section class="section section-muted" id="work">
-        <div class="shell">
-          <div class="section-heading split-heading">
-            <div>
-              <p class="eyebrow">Selected work</p>
-              <h2>Research that travels with its code.</h2>
-            </div>
-            <p class="section-note">A growing list of projects, papers, and reproducible implementations will appear here.</p>
-          </div>
-          <article class="project-card">
-            <div>
-              <p class="project-type">Open-source project · 2026</p>
-              <h3>PRLF</h3>
-              <p>Progressive Representation Learning for Multimodal Sentiment Analysis with Incomplete Modalities.</p>
-              <div class="tag-row">
-                <span>Multimodal sentiment</span>
-                <span>Missing modalities</span>
-                <span>Progressive learning</span>
+        <section id="news" class="content-section">
+          <h2>News</h2>
+          <ul class="news-list">
+            <li><time datetime="2026-10">2026.10</time><span>Our academic homepage is now online, with source code available on <a href="https://github.com/CSBJD/CSBJD.github.io" target="_blank" rel="noreferrer">GitHub</a>.</span></li>
+            <li><time datetime="2026">2026</time><span>Our work on progressive representation learning for multimodal sentiment analysis with incomplete modalities is available as an open-source project.</span></li>
+          </ul>
+        </section>
+
+        <section id="publications" class="content-section">
+          <h2>Publications</h2>
+          <div class="publication-list">
+            <article class="publication-card">
+              <div class="publication-thumb" aria-hidden="true">01</div>
+              <div class="publication-body">
+                <h3><a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=zh-CN&amp;user=MJFRrJwAAAAJ&amp;citation_for_view=MJFRrJwAAAAJ:u-x6o8ySG0sC" target="_blank" rel="noreferrer">An emotion recognition method based on eye movement and audiovisual features in MOOC learning environment</a></h3>
+                <p class="publication-type">Affective computing · Multimodal emotion recognition</p>
+                <div class="publication-links"><a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=zh-CN&amp;user=MJFRrJwAAAAJ&amp;citation_for_view=MJFRrJwAAAAJ:u-x6o8ySG0sC" target="_blank" rel="noreferrer">Google Scholar</a></div>
               </div>
-            </div>
-            <a class="text-link" href="https://github.com/CSBJD/PRLF" target="_blank" rel="noreferrer">View repository <span aria-hidden="true">↗</span></a>
-          </article>
-        </div>
-      </section>
+            </article>
 
-      <section class="section shell" id="publications">
-        <div class="section-heading split-heading">
-          <div>
-            <p class="eyebrow">Selected publications</p>
-            <h2>Recent work on emotion and multimodal understanding.</h2>
+            <article class="publication-card">
+              <div class="publication-thumb" aria-hidden="true">02</div>
+              <div class="publication-body">
+                <h3><a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=zh-CN&amp;user=MJFRrJwAAAAJ&amp;citation_for_view=MJFRrJwAAAAJ:qjMakFHDy7sC" target="_blank" rel="noreferrer">SVD-guided multimodal feature fusion for emotion recognition from facial videos</a></h3>
+                <p class="publication-type">Facial video analysis · Feature fusion</p>
+                <div class="publication-links"><a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=zh-CN&amp;user=MJFRrJwAAAAJ&amp;citation_for_view=MJFRrJwAAAAJ:qjMakFHDy7sC" target="_blank" rel="noreferrer">Google Scholar</a></div>
+              </div>
+            </article>
+
+            <article class="publication-card">
+              <div class="publication-thumb" aria-hidden="true">03</div>
+              <div class="publication-body">
+                <h3><a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=zh-CN&amp;user=MJFRrJwAAAAJ&amp;citation_for_view=MJFRrJwAAAAJ:Tyk-4Ss8FVUC" target="_blank" rel="noreferrer">Progressive representation learning for multimodal sentiment analysis with incomplete modalities</a></h3>
+                <p class="publication-type">Multimodal sentiment analysis · Incomplete modalities</p>
+                <div class="publication-links"><a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=zh-CN&amp;user=MJFRrJwAAAAJ&amp;citation_for_view=MJFRrJwAAAAJ:Tyk-4Ss8FVUC" target="_blank" rel="noreferrer">Google Scholar</a><a href="https://github.com/CSBJD/PRLF" target="_blank" rel="noreferrer">Code</a></div>
+              </div>
+            </article>
+
+            <article class="publication-card">
+              <div class="publication-thumb" aria-hidden="true">04</div>
+              <div class="publication-body">
+                <h3><a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=zh-CN&amp;user=MJFRrJwAAAAJ&amp;citation_for_view=MJFRrJwAAAAJ:W7OEmFMy1HYC" target="_blank" rel="noreferrer">Context Effect Guided Multi-Source Awareness Framework for Dynamic Facial Expression Recognition</a></h3>
+                <p class="publication-type">Facial expression recognition · Context-aware learning</p>
+                <div class="publication-links"><a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=zh-CN&amp;user=MJFRrJwAAAAJ&amp;citation_for_view=MJFRrJwAAAAJ:W7OEmFMy1HYC" target="_blank" rel="noreferrer">Google Scholar</a></div>
+              </div>
+            </article>
           </div>
-          <p class="section-note">A selection of research on affective computing, multimodal representation learning, and facial expression analysis.</p>
-        </div>
-        <div class="publication-list">
-          <article class="publication-item">
-            <span class="publication-number">01</span>
-            <div>
-              <h3><a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=zh-CN&amp;user=MJFRrJwAAAAJ&amp;citation_for_view=MJFRrJwAAAAJ:u-x6o8ySG0sC" target="_blank" rel="noreferrer">An emotion recognition method based on eye movement and audiovisual features in MOOC learning environment</a></h3>
-              <p class="publication-meta">Affective computing · Multimodal emotion recognition</p>
-            </div>
-            <a class="text-link" href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=zh-CN&amp;user=MJFRrJwAAAAJ&amp;citation_for_view=MJFRrJwAAAAJ:u-x6o8ySG0sC" target="_blank" rel="noreferrer">Scholar <span aria-hidden="true">↗</span></a>
-          </article>
-          <article class="publication-item">
-            <span class="publication-number">02</span>
-            <div>
-              <h3><a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=zh-CN&amp;user=MJFRrJwAAAAJ&amp;citation_for_view=MJFRrJwAAAAJ:qjMakFHDy7sC" target="_blank" rel="noreferrer">SVD-guided multimodal feature fusion for emotion recognition from facial videos</a></h3>
-              <p class="publication-meta">Facial video analysis · Feature fusion</p>
-            </div>
-            <a class="text-link" href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=zh-CN&amp;user=MJFRrJwAAAAJ&amp;citation_for_view=MJFRrJwAAAAJ:qjMakFHDy7sC" target="_blank" rel="noreferrer">Scholar <span aria-hidden="true">↗</span></a>
-          </article>
-          <article class="publication-item">
-            <span class="publication-number">03</span>
-            <div>
-              <h3><a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=zh-CN&amp;user=MJFRrJwAAAAJ&amp;citation_for_view=MJFRrJwAAAAJ:Tyk-4Ss8FVUC" target="_blank" rel="noreferrer">Progressive representation learning for multimodal sentiment analysis with incomplete modalities</a></h3>
-              <p class="publication-meta">Multimodal sentiment analysis · Incomplete modalities</p>
-            </div>
-            <a class="text-link" href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=zh-CN&amp;user=MJFRrJwAAAAJ&amp;citation_for_view=MJFRrJwAAAAJ:Tyk-4Ss8FVUC" target="_blank" rel="noreferrer">Scholar <span aria-hidden="true">↗</span></a>
-          </article>
-          <article class="publication-item">
-            <span class="publication-number">04</span>
-            <div>
-              <h3><a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=zh-CN&amp;user=MJFRrJwAAAAJ&amp;citation_for_view=MJFRrJwAAAAJ:W7OEmFMy1HYC" target="_blank" rel="noreferrer">Context Effect Guided Multi-Source Awareness Framework for Dynamic Facial Expression Recognition</a></h3>
-              <p class="publication-meta">Facial expression recognition · Context-aware learning</p>
-            </div>
-            <a class="text-link" href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=zh-CN&amp;user=MJFRrJwAAAAJ&amp;citation_for_view=MJFRrJwAAAAJ:W7OEmFMy1HYC" target="_blank" rel="noreferrer">Scholar <span aria-hidden="true">↗</span></a>
-          </article>
-        </div>
-      </section>
+        </section>
 
-      <section class="section shell contact-section" id="contact">
-        <div>
-          <p class="eyebrow">Get in touch</p>
-          <h2>Interested in multimodal and affective intelligence?</h2>
-        </div>
-        <div class="contact-details">
-          <a href="mailto:bjd0706@njust.edu.cn">bjd0706@njust.edu.cn</a>
-          <a href="https://scholar.google.com/citations?user=MJFRrJwAAAAJ&amp;hl=zh-CN" target="_blank" rel="noreferrer">Google Scholar <span aria-hidden="true">↗</span></a>
-          <a href="https://github.com/CSBJD" target="_blank" rel="noreferrer">GitHub <span aria-hidden="true">↗</span></a>
-        </div>
-      </section>
+        <section id="research" class="content-section compact-section">
+          <h2>Research</h2>
+          <ul class="topic-list">
+            <li>Multimodal sentiment and emotion analysis</li>
+            <li>Reliability-aware fusion under missing modalities</li>
+            <li>Progressive representation learning and knowledge distillation</li>
+            <li>Affective computing and facial expression recognition</li>
+          </ul>
+        </section>
+
+        <section id="affiliation" class="content-section compact-section">
+          <h2>Affiliation</h2>
+          <div class="timeline-item">
+            <strong>Nanjing University of Science and Technology</strong>
+            <span>Nanjing, China</span>
+            <p>Research interests: multimodal learning and affective computing.</p>
+          </div>
+        </section>
+
+        <section id="contact" class="content-section compact-section">
+          <h2>Contact</h2>
+          <p><a href="mailto:bjd0706@njust.edu.cn">bjd0706@njust.edu.cn</a> · <a href="https://scholar.google.com/citations?user=MJFRrJwAAAAJ&amp;hl=zh-CN" target="_blank" rel="noreferrer">Google Scholar</a> · <a href="https://github.com/CSBJD" target="_blank" rel="noreferrer">GitHub</a></p>
+        </section>
+      </article>
     </main>
 
-    <footer class="site-footer">
-      <div class="shell footer-wrap">
-        <span>© 2026 Jindi Bao</span>
-        <span>Nanjing University of Science and Technology</span>
-      </div>
-    </footer>
+    <footer class="site-footer"><span>© 2026 Jindi Bao</span></footer>
+    <script>
+      const toggle = document.querySelector('.menu-toggle');
+      const nav = document.querySelector('#primary-nav');
+      toggle.addEventListener('click', () => {
+        const expanded = toggle.getAttribute('aria-expanded') === 'true';
+        toggle.setAttribute('aria-expanded', String(!expanded));
+        nav.classList.toggle('is-open', !expanded);
+      });
+      nav.querySelectorAll('a').forEach((link) => link.addEventListener('click', () => {
+        toggle.setAttribute('aria-expanded', 'false');
+        nav.classList.remove('is-open');
+      }));
+    </script>
   </body>
 </html>
