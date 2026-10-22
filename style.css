@@ -52,6 +52,8 @@ a:hover { color: #123d63; text-decoration: underline; }
 .publication-body h3 a { color: #333; }
 .publication-body h3 a:hover { color: var(--accent); }
 .publication-authors { margin: 0 0 5px; color: #2462a6; font-size: .91rem; line-height: 1.5; }
+.publication-authors a { color: inherit; text-decoration: underline; text-decoration-color: #9ab7d2; text-underline-offset: 2px; }
+.publication-authors a:hover { color: #123d63; text-decoration-color: currentColor; }
 .publication-venue { margin: 0 0 12px; color: var(--muted); font-size: .88rem; line-height: 1.45; }
 .publication-links { display: flex; flex-wrap: wrap; gap: 7px; margin: 0 0 13px; font-size: .79rem; line-height: 1.4; }
 .publication-links a { display: inline-block; padding: 3px 8px; border-radius: 2px; color: #fff; font-weight: 650; text-decoration: none; }
