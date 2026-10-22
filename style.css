@@ -39,9 +39,9 @@ a:hover { color: #123d63; text-decoration: underline; }
 .intro-section p:last-child { margin-bottom: 0; }
 .content-section { padding: 34px 0 0; }
 .content-section h2 { margin: 0 0 21px; color: #333; font-size: 1.55rem; line-height: 1.2; font-weight: 650; }
-.news-list { margin: 0; padding: 0; list-style: none; }
-.news-list li { display: grid; grid-template-columns: 78px minmax(0, 1fr); gap: 16px; margin-bottom: 13px; }
-.news-list time { color: var(--muted); font-variant-numeric: tabular-nums; }
+.news-list { margin: 0; padding-left: 22px; list-style: disc; }
+.news-list li { margin-bottom: 13px; }
+.news-list time { color: var(--muted); font-style: italic; font-variant-numeric: tabular-nums; }
 .publication-list { display: grid; gap: 18px; }
 .publication-card { display: grid; grid-template-columns: 126px minmax(0, 1fr); gap: 22px; padding: 17px 0; border-bottom: 1px solid var(--line); }
 .publication-card:first-child { padding-top: 0; }
