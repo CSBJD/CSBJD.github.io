@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-labelledby="title desc">
+  <title id="title">MOOC multimodal emotion recognition method</title>
+  <desc id="desc">Eye movement, audio and video signals are transformed into FCDE and PCRS features, fused, and classified into learner emotion.</desc>
+  <defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#56718a"/></marker></defs>
+  <rect width="640" height="360" rx="18" fill="#f7fafc"/>
+  <text x="28" y="34" font-family="Arial,sans-serif" font-size="18" font-weight="700" fill="#243746">MOOC emotion recognition</text>
+  <g font-family="Arial,sans-serif" font-size="15" fill="#243746" text-anchor="middle">
+    <rect x="30" y="70" width="130" height="62" rx="10" fill="#e7f1fb" stroke="#91b5d5"/><text x="95" y="98">Eye movement</text><text x="95" y="119" font-size="12">trajectory</text>
+    <rect x="30" y="149" width="130" height="62" rx="10" fill="#fff0df" stroke="#e2b17e"/><text x="95" y="177">Audio signal</text><text x="95" y="198" font-size="12">speech cues</text>
+    <rect x="30" y="228" width="130" height="62" rx="10" fill="#e8f4e5" stroke="#99c393"/><text x="95" y="256">Video image</text><text x="95" y="277" font-size="12">optical flow</text>
+    <rect x="215" y="83" width="145" height="74" rx="10" fill="#dcecf8" stroke="#78a8ca"/><text x="287" y="113" font-weight="700">FCDE</text><text x="287" y="135" font-size="12">eye + flow</text>
+    <rect x="215" y="204" width="145" height="74" rx="10" fill="#e8f4e5" stroke="#86b57f"/><text x="287" y="234" font-weight="700">PCRS</text><text x="287" y="256" font-size="12">pixel change rate</text>
+    <rect x="420" y="125" width="165" height="90" rx="12" fill="#fff3c9" stroke="#d9b85b"/><text x="502" y="160" font-weight="700">Multimodal fusion</text><text x="502" y="183" font-size="12">feature integration</text>
+    <rect x="455" y="253" width="95" height="49" rx="10" fill="#2d5f85"/><text x="502" y="283" fill="#fff" font-weight="700">Emotion</text>
+  </g>
+  <g stroke="#56718a" stroke-width="3" fill="none" marker-end="url(#arrow)"><path d="M160 101 H205"/><path d="M160 180 H205"/><path d="M160 259 H205"/><path d="M360 120 H410"/><path d="M360 241 C395 241 390 190 410 180"/><path d="M502 215 V243"/></g>
+</svg>

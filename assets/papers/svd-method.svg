@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-labelledby="title desc">
+  <title id="title">SVD-guided multimodal feature fusion method</title>
+  <desc id="desc">Heterogeneous facial video features are decomposed into complementary components with SVD, fused hierarchically, and optimized with level-specific losses for emotion recognition.</desc>
+  <defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#5e7487"/></marker></defs>
+  <rect width="640" height="360" rx="18" fill="#f8fafb"/>
+  <text x="28" y="34" font-family="Arial,sans-serif" font-size="18" font-weight="700" fill="#243746">SVD-guided feature fusion</text>
+  <g font-family="Arial,sans-serif" font-size="15" fill="#243746" text-anchor="middle">
+    <rect x="28" y="82" width="128" height="62" rx="10" fill="#e8f0f7" stroke="#91aabd"/><text x="92" y="110">Facial video</text><text x="92" y="131" font-size="12">frame sequence</text>
+    <rect x="28" y="205" width="128" height="62" rx="10" fill="#fff0df" stroke="#dfb17e"/><text x="92" y="233">Other features</text><text x="92" y="254" font-size="12">heterogeneous cues</text>
+    <rect x="207" y="103" width="145" height="143" rx="12" fill="#e8f4e5" stroke="#91bd88"/><text x="279" y="139" font-weight="700">SVD guidance</text><text x="279" y="166" font-size="12">shared component</text><text x="279" y="188" font-size="12">+</text><text x="279" y="210" font-size="12">residual component</text>
+    <rect x="404" y="68" width="184" height="67" rx="10" fill="#fff3c9" stroke="#d7b35a"/><text x="496" y="96" font-weight="700">Low-level fusion</text><text x="496" y="117" font-size="12">local feature alignment</text>
+    <rect x="404" y="155" width="184" height="67" rx="10" fill="#f7e1ec" stroke="#c990ab"/><text x="496" y="183" font-weight="700">High-level fusion</text><text x="496" y="204" font-size="12">semantic integration</text>
+    <rect x="442" y="263" width="108" height="50" rx="10" fill="#2d5f85"/><text x="496" y="294" fill="#fff" font-weight="700">Emotion</text>
+  </g>
+  <g stroke="#5e7487" stroke-width="3" fill="none" marker-end="url(#arrow)"><path d="M156 113 H197"/><path d="M156 236 H197"/><path d="M352 135 H394"/><path d="M352 214 H394"/><path d="M496 135 V147"/><path d="M496 222 V253"/></g>
+  <text x="286" y="326" font-family="Arial,sans-serif" font-size="12" text-anchor="middle" fill="#657782">hierarchical fusion with level-specific losses</text>
+</svg>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-labelledby="title desc">
+  <title id="title">Multi-source awareness framework for dynamic facial expression recognition</title>
+  <desc id="desc">Facial expression, context and audio streams pass through context-awareness and local-face-awareness modules before multi-source fusion and expression prediction.</desc>
+  <defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#60758a"/></marker></defs>
+  <rect width="640" height="360" rx="18" fill="#f8fafb"/>
+  <text x="28" y="34" font-family="Arial,sans-serif" font-size="18" font-weight="700" fill="#243746">Multi-source awareness DFER</text>
+  <g font-family="Arial,sans-serif" font-size="15" fill="#243746" text-anchor="middle">
+    <rect x="28" y="73" width="130" height="59" rx="10" fill="#e8f4e5" stroke="#94be8b"/><text x="93" y="101">Face sequence</text><text x="93" y="121" font-size="12">expression stream</text>
+    <rect x="28" y="151" width="130" height="59" rx="10" fill="#e7f1fb" stroke="#8eafd0"/><text x="93" y="179">Scene sequence</text><text x="93" y="199" font-size="12">context stream</text>
+    <rect x="28" y="229" width="130" height="59" rx="10" fill="#fff0df" stroke="#ddb080"/><text x="93" y="257">Audio signal</text><text x="93" y="277" font-size="12">auxiliary source</text>
+    <rect x="213" y="77" width="150" height="90" rx="12" fill="#dcecf8" stroke="#7fa9ca"/><text x="288" y="111" font-weight="700">Context-awareness</text><text x="288" y="135" font-size="12">global scene cues</text>
+    <rect x="213" y="193" width="150" height="90" rx="12" fill="#e8f4e5" stroke="#86b77d"/><text x="288" y="227" font-weight="700">Local face-awareness</text><text x="288" y="251" font-size="12">fine facial details</text>
+    <rect x="418" y="121" width="150" height="91" rx="12" fill="#fff3c9" stroke="#d5b55c"/><text x="493" y="156" font-weight="700">Multi-source fusion</text><text x="493" y="180" font-size="12">face + context + audio</text>
+    <rect x="449" y="263" width="88" height="49" rx="10" fill="#2d5f85"/><text x="493" y="293" fill="#fff" font-weight="700">DFER</text>
+  </g>
+  <g stroke="#60758a" stroke-width="3" fill="none" marker-end="url(#arrow)"><path d="M158 103 H202"/><path d="M158 181 C185 181 181 237 202 237"/><path d="M158 259 H202"/><path d="M363 122 H408"/><path d="M363 237 C390 237 390 185 408 185"/><path d="M493 212 V253"/></g>
+</svg>
